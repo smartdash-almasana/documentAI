@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 @theme {
-  --color-hueso: #faf8f5;
-  --color-carbon: #1a1a1a;
-  --color-cobalto: #1e3a8a;
+  --color-carbon: #12110f;
+  --color-oro: #d4b47a;
+  --color-arena: #f4e4c1;
   --font-sans: var(--font-inter);
   --font-serif: var(--font-playfair);
 }
 
 body {
-  background-color: var(--color-hueso);
-  color: var(--color-carbon);
+  background-color: var(--color-carbon);
+  color: color-mix(in srgb, var(--color-arena) 90%, transparent);
 }
