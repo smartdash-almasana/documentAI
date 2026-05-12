@@ -1,5 +1,8 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
+import Content from '@/components/Content';
+import Contact from '@/components/Contact';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -7,7 +10,10 @@ export default function Home() {
       <Header />
       <main className="flex-grow pt-[80px]">
         <Hero />
+        <Content />
+        <Contact />
       </main>
+      <Footer />
     </div>
   );
 }
